@@ -10,5 +10,5 @@ A cloud formation template is said to be non-portable when that template can not
 
     Now, this template is not optimize, for the above stated reason. One of the core concept of automating the creation of your cloud infrastructure is for ease of deployment of this infrastructure in any environment, region etc., without always editing this template to suit your current need. Basically for reuseability. The template should be written in an optimize way in that the values to this properties should be dyamically updated.
 
-    Optimizing your cloud formation template can be done using intriscic functions and some other concept.
+    Optimizing your cloud formation template can be done using Template parameter, Psuedo parameter, Mappings, intriscic functions and some other concept.
 
