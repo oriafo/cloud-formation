@@ -1,0 +1,15 @@
+Resources:
+  Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-04d29b6f966df1537
+      InstanceType: t2.micro
+      KeyName: A4L
+  Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: geepee
+ 
+
+#aws cloudformation describe-stacks --stack-name <stack name> --profile dikodin_profile --region us-east-1
+#aws cloudformation delete-stack --stack name <stack name> --profile dikodin_profile
